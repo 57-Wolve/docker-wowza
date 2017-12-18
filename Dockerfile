@@ -1,5 +1,4 @@
 FROM sameersbn/ubuntu:14.04.20170110
-MAINTAINER sameer@damagehead.com
 
 ENV WOWZA_VERSION=4.7.3 \
     WOWZA_DATA_DIR=/var/lib/wowza \
