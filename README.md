@@ -81,7 +81,7 @@ docker run --name wowza -d --restart=always \
   --env 'WOWZA_KEY=xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx' \
   --volume /srv/docker/wowza/data:/var/lib/wowza \
   --volume /srv/docker/wowza/log:/var/log/wowza \
-  sameersbn/wowza:4.1.2-8
+  57wolve/docker-wowza:4.7.3
 ```
 
 **The `--env WOWZA_ACCEPT_LICENSE=yes` parameter in the above command indicates that you agree to the Wowza EULA.**
@@ -129,7 +129,7 @@ To upgrade to newer releases:
   1. Download the updated Docker image:
 
   ```bash
-  docker pull 7wolve/docker-wowza:4.7.3
+  docker pull 57wolve/docker-wowza:4.7.3
   ```
 
   2. Stop the currently running image:
