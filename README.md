@@ -2,9 +2,9 @@
 
 > **NOTICE**:
 >
-> Due to changes in the WOWZA installer, `4.3.x` and later versions are installed during container startup.
+> Due to changes in the WOWZA installer, `4.7.x` and later versions are installed during container startup.
 
-# sameersbn/wowza:4.1.2-8
+# 57wolve/docker-wowza:4.7.3
 
 - [Introduction](#introduction)
   - [Contributing](#contributing)
@@ -58,7 +58,7 @@ Automated builds of the image are available on [Dockerhub](https://hub.docker.co
 > **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/wowza)
 
 ```bash
-docker pull sameersbn/wowza:4.1.2-8
+docker pull 57wolve/docker-wowza:4.7.3
 ```
 
 Alternatively you can build the image yourself.
@@ -129,7 +129,7 @@ To upgrade to newer releases:
   1. Download the updated Docker image:
 
   ```bash
-  docker pull sameersbn/wowza:4.1.2-8
+  docker pull 7wolve/docker-wowza:4.7.3
   ```
 
   2. Stop the currently running image:
@@ -149,7 +149,7 @@ To upgrade to newer releases:
   ```bash
   docker run -name wowza -d \
     [OPTIONS] \
-    sameersbn/wowza:4.1.2-8
+    57wolve/docker-wowza:4.7.3
   ```
 
 ## Shell Access
