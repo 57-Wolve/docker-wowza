@@ -1,5 +1,5 @@
 Wowza:
-  image: 57wolve/docker-wowza
+  image: 57wolve/docker-wowza:latest
   environment:
     - WOWZA_ACCEPT_LICENSE=yes
     - WOWZA_KEY=
